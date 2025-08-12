@@ -1,10 +1,15 @@
 plugins {
     id("com.android.application")
     id("kotlin-android")
+<<<<<<< HEAD
     id("org.jetbrains.kotlin.android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
     id("com.google.gms.google-services")
+=======
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id("dev.flutter.flutter-gradle-plugin")
+>>>>>>> 4a5ad0da47d0864303d4d196a82c3d1cf8df98cc
 }
 
 android {
@@ -44,6 +49,7 @@ android {
 flutter {
     source = "../.."
 }
+<<<<<<< HEAD
 dependencies {
     // Firebase BOM (সব সার্ভিসের ভার্সন ম্যানেজ করার জন্য)
     implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
@@ -66,3 +72,5 @@ dependencies {
     // Firebase Dynamic Links
     implementation("com.google.firebase:firebase-dynamic-links")
 }
+=======
+>>>>>>> 4a5ad0da47d0864303d4d196a82c3d1cf8df98cc
